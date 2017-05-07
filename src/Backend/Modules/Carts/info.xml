@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>Carts</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.9.0</minimum_version>
+        <module>
+            <name>Carts</name>
+            <minimum_version>1.0.0</minimum_version>
+        </module>
+	</requirements>
+	<description>
+		<![CDATA[
+			Carts
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name><![CDATA[Vytenis Ščiukas]]></name>
+			<url><![CDATA[http://www.vytsci.lt]]></url>
+		</author>
+	</authors>
+	<events>
+		<event application="frontend" name="after_add"><![CDATA[Triggered after a cart was added.]]></event>
+        <event application="backend" name="after_edit"><![CDATA[Triggered after a cart was edited.]]></event>
+	</events>
+</module>
